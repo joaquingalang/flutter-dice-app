@@ -44,7 +44,7 @@ class _DicePageState extends State<DicePage> {
               diceNumber = random.nextInt(6) + 1;
             });
           },
-          child: Image.asset('images/$diceNumber.png', width: 250),
+          child: Image.asset('images/dice$diceNumber.png', width: 250),
         ),
       ),
     );
